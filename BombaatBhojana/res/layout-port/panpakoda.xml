@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="@drawable/bg" android:weightSum="1" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:id="@+id/relativeLayout1" android:background="#77000000" android:gravity="top" android:layout_height="27dp">
+        <TextView android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/textItem" android:layout_alignParentTop="true" android:text="      Item    =&gt;"></TextView>
+        <TextView android:layout_height="wrap_content" android:layout_alignParentRight="true" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Quantity       " android:layout_width="wrap_content" android:id="@+id/textQuantity" android:layout_alignParentTop="true"></TextView>
+    </RelativeLayout>
+    <ScrollView android:layout_width="match_parent" android:id="@+id/scrollView1" android:layout_height="186dp" android:background="#44000000">
+                    <TextView android:maxWidth="250px" android:textSize="30px" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/txtIng" android:textColor="#000" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:text="Ingredients" android:layout_width="match_parent" android:layout_height="match_parent"></TextView>
+         </ScrollView>
+    <TextView android:layout_width="match_parent" android:background="#99000000" android:textAppearance="?android:attr/textAppearanceLarge" android:text="   " android:id="@+id/textView1" android:layout_height="22dp"></TextView>
+    <TextView android:layout_width="match_parent" android:background="#77000000" android:textAppearance="?android:attr/textAppearanceLarge" android:text="   Method" android:id="@+id/titletMethod" android:layout_height="wrap_content"></TextView>
+    <ScrollView android:layout_width="match_parent" android:background="#44000000" android:id="@+id/scrollView2" android:layout_height="match_parent">
+        
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:textColor="#000" android:id="@+id/txtMethod"></TextView>
+        
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@android:color/black"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titleServe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Servings"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000"
+            tools:ignore="HardcodedText" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:baselineAligned="true" >
+
+            <Button
+                tools:ignore="HardcodedText" 
+                android:id="@+id/buttonDec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="down" >
+            </Button>
+
+            <TextView
+                tools:ignore="HardcodedText" 
+                android:id="@+id/textSer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000" >
+            </TextView>
+
+            <Button
+                tools:ignore="HardcodedText" 
+                android:id="@+id/buttonInc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="up" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp" >
+    </View>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:orientation="vertical" >
+
+        <Button
+            tools:ignore="HardcodedText" 
+            android:id="@+id/buttonMainDish"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Main Dish" >
+        </Button>
+
+        <Button
+            tools:ignore="HardcodedText" 
+            android:id="@+id/buttonSnacks"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Snacks" >
+        </Button>
+
+        <Button
+            tools:ignore="HardcodedText" 
+            android:id="@+id/buttonSideDish"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Side Dish" >
+        </Button>
+
+        <Button
+            tools:ignore="HardcodedText" 
+            android:id="@+id/buttonDesserts"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Desserts" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

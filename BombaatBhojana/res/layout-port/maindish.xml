@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1" android:background="@drawable/bg">
+    <View android:id="@+id/view1" android:layout_width="wrap_content" android:layout_height="104dp"></View>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_gravity="center" android:id="@+id/titleMainDish" android:textColor="#000" android:text="Main Dish"></TextView>
+    <View android:id="@+id/view2" android:layout_width="wrap_content" android:layout_height="78dp"></View>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:layout_weight="0.48">
+        <Button android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Capcisum Pulav " android:id="@+id/buttonCapPulav"></Button>
+        <Button android:id="@+id/Button02" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="BisiBele Baath"></Button>
+        <Button android:id="@+id/Button01" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Fried Rice"></Button>
+        <Button android:id="@+id/button1" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Puliyogre"></Button>
+    </LinearLayout>
+    
+</LinearLayout>

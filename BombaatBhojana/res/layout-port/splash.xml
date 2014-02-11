@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="#FFDC4C" android:weightSum="1">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent" android:orientation="vertical">
+        <TextView android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="right" android:text="Android 2.3.3 App by akshayholla" android:textColor="#636363"></TextView>
+    </LinearLayout>
+    <ImageView android:layout_height="152dp" android:src="@drawable/bbtitle" android:id="@+id/imageView2" android:layout_width="match_parent"></ImageView>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:id="@+id/mainTitle" android:text="@string/app_name" android:textColor="#000" android:textStyle="bold"></TextView>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_weight="0.10" android:layout_height="match_parent">
+        <View android:id="@+id/view2" android:layout_width="146dp" android:layout_height="413dp"></View>
+        <ImageView android:id="@+id/imageView1" android:layout_height="441dp" android:src="@drawable/chandru" android:layout_width="match_parent"></ImageView>
+        <TextView android:text="TextView" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    
+</LinearLayout>

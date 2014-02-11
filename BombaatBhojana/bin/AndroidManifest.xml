@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.akshay.bombaatB"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="HelloApplication">
+        <activity android:name=".BombaatSplash"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LangSelect" android:theme="@style/TranslucentGrey"></activity>
+        <activity android:name=".MainMenu" android:theme="@style/TranslucentGrey"></activity>
+        <activity android:name=".Menu" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".MainDish" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".CapPulav"></activity>
+        <activity android:name=".Snacks"></activity>
+        <activity android:name=".PannPakoda"></activity>
+
+    </application>
+</manifest>

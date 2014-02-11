@@ -1,0 +1,8 @@
+<!--?xml version="1.0" encoding="utf-8"?-->  
+<resources>  
+<color name="transparent_grey_color">#99E0DADA</color>  
+<style name="TranslucentGrey" parent="android:Theme.Translucent">  
+        <item name="android:windowBackground">@color/transparent_grey_color</item>  
+    </style>  
+  
+</resources>  

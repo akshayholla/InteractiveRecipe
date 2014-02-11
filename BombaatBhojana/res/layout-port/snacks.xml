@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="@drawable/bg">
+    <LinearLayout android:weightSum="1" android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent" android:background="@drawable/bg">
+        <View android:id="@+id/view1" android:layout_width="wrap_content" android:layout_height="104dp"></View>
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#000" android:id="@+id/titleSnacks" android:text="Snacks"></TextView>
+        <View android:id="@+id/view2" android:layout_width="wrap_content" android:layout_height="78dp"></View>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.48" android:orientation="vertical" android:id="@+id/linearLayout1">
+            <Button android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Paan Pakoda" android:id="@+id/buttonPaanPakoda"></Button>
+            <Button android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/Button02" android:text="Aloo Cutlet"></Button>
+            <Button android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/Button01" android:text="Samosa"></Button>
+            <Button android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/button1" android:text="Paani Puri"></Button>
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>
